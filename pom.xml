@@ -90,7 +90,7 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name> test-project </name>
+	      <name>test-project</name>
 	      <url>http://44.200.26.153:8081/repository/test-project/</url>
 	    </snapshotRepository>
 	    
