@@ -12,11 +12,6 @@
 
 	<description>Maven Web Project for Java Project</description>
 
-	<organization>
-		<name>Landmark Technologies</name>
-		<url>http://landmarktechnologies.com/</url>
-	</organization>
-
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
@@ -92,15 +87,10 @@
 		</dependency>	
 	</dependencies>
 	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.4.141:8181/mylandmarktech/repository/tesla-web-releases/</url>
-	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <name> test-project </name>
 	      <url>http://172.0.0.181:8081/repository/test-project/</url>
 	    </snapshotRepository>
 	    
