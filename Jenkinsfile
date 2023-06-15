@@ -29,12 +29,5 @@ pipeline{
         sh "mvn deploy"
       }
     } 
-    
-   stage('5Deploy-to-testing-environment'){
-      steps{
-        sh "echo 'deploy to testing environment'"
-        deploy adapters: [tomcat9(credentialsId: 'tomcat_credentials', path: '', url: 'http://3.239.218.90:8080/')], contextPath: null, war: 'target/*war'
-   }
-   }
 }
 }
